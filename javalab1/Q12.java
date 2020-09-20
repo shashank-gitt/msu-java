@@ -1,0 +1,15 @@
+package com.msubaroda.shashank.lab3;
+// help to take user input
+import java.util.Scanner;
+public class Lab1Q12 {
+//    main static methord which can execute without using object
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Weight in kgs: ");
+        int weight = sc.nextInt();
+        System.out.print("Enter the Height in meters: ");
+        int height = sc.nextInt();
+        float BMI = weight/(height * height);
+        System.out.println("The BMI is: "+ BMI);
+    }
+}
